@@ -2,4 +2,16 @@
 // Результат присвойте переменной sum
 
 // your code
-let sum
+
+const maxNum = 20;
+let sum = 0;
+let count = 1;
+
+while (count <= maxNum) {
+  // console.log(count);
+  sum = sum + count;
+  count++;
+  // console.log(sum);
+}
+
+console.log(sum);
