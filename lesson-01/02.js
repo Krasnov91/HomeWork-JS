@@ -6,4 +6,15 @@
 */
 
 // your code
-let factorial
+const n = 10;
+
+let factorial = 1;
+let count = 1;
+
+while (count <= n) {
+  factorial = factorial * count;
+  // console.log(factorial);
+  count++;
+}
+console.log(factorial);
+
