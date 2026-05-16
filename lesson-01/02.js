@@ -6,15 +6,15 @@
 */
 
 // your code
-const n = 10;
+// const n = 10;
 
-let factorial = 1;
-let count = 1;
+// let factorial = 1;
+// let count = 1;
 
-while (count <= n) {
-  factorial = factorial * count;
-  // console.log(factorial);
-  count++;
-}
-console.log(factorial);
+// while (count <= n) {
+//   factorial = factorial * count;
+//   console.log(factorial);
+//   count++;
+// }
+// console.log(factorial);
 

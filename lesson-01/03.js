@@ -5,4 +5,30 @@
 */
 
 // your code
-let sum
+
+const n = 20;
+let sum = 0;
+let count = 1;
+
+while (count <= n) {
+
+
+// console.log(count);
+
+
+sum = sum + count;
+// count = (sum % count);
+ count = count + 1 + (count % 2);
+
+
+// console.log("  " + sum);
+
+
+}
+
+
+
+
+// console.log(" ");
+
+console.log(sum);

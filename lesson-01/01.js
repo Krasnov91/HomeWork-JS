@@ -3,15 +3,15 @@
 
 // your code
 
-const maxNum = 20;
-let sum = 0;
-let count = 1;
+// const maxNum = 20;
+// let sum = 0;
+// let count = 1;
 
-while (count <= maxNum) {
-  // console.log(count);
-  sum = sum + count;
-  count++;
-  // console.log(sum);
-}
+// while (count <= maxNum) {
+//   // console.log(count);
+//   sum = sum + count;
+//   count++;
+//   // console.log(sum);
+// }
 
-console.log(sum);
+// console.log(sum);
