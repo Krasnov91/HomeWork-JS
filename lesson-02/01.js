@@ -21,10 +21,10 @@ if (
   (hasSpecialPermission === true || hasTemporaryPass === true)
 ) {
   isAccess = true;
-  // alert("Доступ разрешен")
+  alert("Доступ разрешен")
 } else {
   isAccess = false;
-  // alert("Доступ запрещен");
+  alert("Доступ запрещен");
 }
 
 // console.log(isAccess);
