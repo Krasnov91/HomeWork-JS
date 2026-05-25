@@ -18,6 +18,9 @@ console.log(dice1, dice2);
 if (dice1 === dice2 && dice1 > 3 && dice2 > 3) {
   isWinningDouble = true;
   console.log(isWinningDouble);
+} else {
+  isWinningDouble = false;
+  console.log(isWinningDouble);
 }
 
 
