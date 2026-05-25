@@ -23,7 +23,7 @@ if (
   isAccess = true;
   alert("Доступ разрешен")
 } else {
-  isAccess = false;
+  // isAccess = false;
   alert("Доступ запрещен");
 }
 
