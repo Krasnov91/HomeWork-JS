@@ -8,7 +8,7 @@ function findLargest(num1, num2, num3) {
   } else if (num3 > num1 && num3 > num2) {
     return num3;
   } else if (num3 === num1 || num3 === num2 || num1 === num2) {
-    return false;
+    return num1;
   }
 }
 
