@@ -13,19 +13,19 @@
 includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
 
-function includesElement(array, num) {
-  for (let i = 0; i < array.length; i++) {
-    if (array.includes(num)) {
-      return true;
-    } else {
-      return false;
-    }
-  }
+// function includesElement(array, num) {
+//   for (let i = 0; i < array.length; i++) {
+//     if (array.includes(num)) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   }
 // if (array.includes(num)) {
 //       return true;
 //     } else {
 //       return false;
 //     }
-}
+// }
 // console.log(includesElement([1, 2, 3], 3));
 // console.log(includesElement([1, 2, 3], 0));
