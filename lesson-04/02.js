@@ -18,12 +18,11 @@
 function findUniqueElements(arr) {
   let uniqueElements = [];
   for (let i = 0; i < arr.length; i++) {
-    if (uniqueElements.indexOf(arr[i]) === -1 && arr[i] !== '') {
+    if (!uniqueElements.includes(arr[i])) {
       uniqueElements.push(arr[i]);
     }
-    
   }
   return uniqueElements;
 }
 
-// console.log(findUniqueElements([1, 2, 3, 2, 1, 4]));
+// console.log(findUniqueElements([1, 2, 2, 3, 4, 4, 5,1,2,3,4,5,6]));
