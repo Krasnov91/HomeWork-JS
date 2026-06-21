@@ -30,7 +30,8 @@ const game = {
       game.resources.lumber = game.resources.lumber + amount;
       console.log(game.resources.lamber);
       
-    } else {return alert("Invalid resource") ;}
+    } else {return console.log("Invalid resource");
+      ;}
     // game.checkResStatus();
   },
 };
