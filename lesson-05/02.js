@@ -35,9 +35,8 @@ let gallery = {
   "The Scream": "Edvard Munch",
 };
 
-function updateGallery(nameGallery, pictureName, pictureInfo) {
+function updateGallery(gallery, pictureName, pictureInfo) {
   gallery[pictureName] = pictureInfo;
-  return gallery;
 }
 
 updateGallery(gallery, "Mona Lisa", "Leonardo da Vinci, 1503-1506");
