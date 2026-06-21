@@ -15,17 +15,24 @@ const game = {
     gold: 250,
     lumber: 100,
   },
-
+  // checkResStatus: function () {
+  //   console.log(
+  //     `gold: ${game.resources.gold}, lumber: ${game.resources.lumber}`,
+  //   );
+  // },
   addResource(resource, amount) {
     if (resource === "gold") {
       game.resources.gold = game.resources.gold + amount;
       console.log(game.resources.gold);
-    } else if (resource === "lumber") {
+      
+      
+    } else if (resource === "lumber"){
       game.resources.lumber = game.resources.lumber + amount;
       console.log(game.resources.lamber);
-    } else {
-      return "Invalid resource";
-    }
+      
+    } else {return alert("Invalid resource") ;}
+    // game.checkResStatus();
   },
 };
 
+// console.log(game.addResource("golda", 25));
