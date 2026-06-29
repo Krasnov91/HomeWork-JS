@@ -29,17 +29,17 @@ console.log(gallery)
 }
 */
 
-let gallery = {
-  "Mona Lisa": "Leonardo da Vinci",
-  "Starry Night": "Vincent van Gogh",
-  "The Scream": "Edvard Munch",
-};
+// const gallery = {
+//   "Mona Lisa": "Leonardo da Vinci",
+//   "Starry Night": "Vincent van Gogh",
+//   "The Scream": "Edvard Munch",
+// };
 
-function updateGallery(gallery, pictureName, pictureInfo) {
-  gallery[pictureName] = pictureInfo;
-}
+// function updateGallery(gallery, pictureName, pictureInfo) {
+//   gallery[pictureName] = pictureInfo;
+// }
 
-updateGallery(gallery, "Mona Lisa", "Leonardo da Vinci, 1503-1506");
-updateGallery(gallery, "The Persistence of Memory", "Salvador Dali");
+// updateGallery(gallery, "Mona Lisa", "Leonardo da Vinci, 1503-1506");
+// updateGallery(gallery, "The Persistence of Memory", "Salvador Dali");
 
-console.log(gallery);
+// console.log(gallery);
