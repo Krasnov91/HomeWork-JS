@@ -36,7 +36,7 @@ function map(array, callback) {
 
 const numbers = [1, 2, 3, 4, 5]
 
-const doubledNumbers = numbers.map( element => element * 2 )
+const doubledNumbers = numbers.map( (index, element) => {index = i; element * 2 })
 
 console.log(doubledNumbers);
 
