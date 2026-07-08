@@ -28,7 +28,7 @@ function map(array, callback) {
   const result = [];
   for (let i = 0; i < array.length; i++) {
     if (callback(array[i], i)) {
-      result.push(array[i]);
+      result.push(array[i]*2);
     }
   }
   return result;
