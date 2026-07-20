@@ -7,6 +7,8 @@ function isNumeric(str) {
   let b = +str
   if (b > 0) {
     return true
+  } else if (b < 0){
+    return true
   } else return false
   
 }
