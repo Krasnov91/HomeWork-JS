@@ -3,18 +3,19 @@
  * Если строка является числом, функция должна возвращать true, в противном случае - false.
  */
 
-function isNumeric(str) {
-  let b = +str
-  if (b > 0) {
-    return true
-  } else if (b < 0){
-    return true
-  } else return false
-  
-}
+// function isNumeric(str) {
+//  if(typeof str !== "string" || str.trim() === ""){
+//   return false
+//  }
+//  return Number.isFinite(+str)
 
-console.log(isNumeric("123")) // Ожидаемый результат: true
-console.log(isNumeric("12.3")) // Ожидаемый результат: true
-console.log(isNumeric("123abc")) // Ожидаемый результат: false
-console.log(isNumeric("abc")) // Ожидаемый результат: false
-console.log(isNumeric(" ")) // Ожидаемый результат: false
+// }
+
+// console.log(isNumeric("123")) // Ожидаемый результат: true
+// console.log(isNumeric("12.3")) // Ожидаемый результат: true
+// console.log(isNumeric("123abc")) // Ожидаемый результат: false
+// console.log(isNumeric("abc")) // Ожидаемый результат: false
+// console.log(isNumeric(" ")) // Ожидаемый результат: false
+// console.log(isNumeric("")) // Ожидаемый результат: false
+// console.log(isNumeric("0")) 
+
