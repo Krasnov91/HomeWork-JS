@@ -82,8 +82,6 @@ console.log(cart);
   }
 })
 
- 
-console.log(PETS);
 
 
 
